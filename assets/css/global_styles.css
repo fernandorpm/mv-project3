@@ -28,6 +28,10 @@ li {
 
 /* Width Sizes - Percentages */
 
+.w94 {
+  width: 94%;
+}
+
 .w100 {
   width: 100%;
   margin: 0 auto;
@@ -137,7 +141,6 @@ body,
   left: 0;
 }
 
-
 /* Main */
 
 .debate-img {
@@ -153,16 +156,17 @@ body,
   height: 24px;
 }
 
+.margintest {
+  width: 1000px;
+  margin: -20px;
+}
+
 /* Footer */
 
 .border-right-min-tablet {
   border: 0 !important;
 }
 
-.margintest {
-  width: 1000px;
-  margin: -20px;
-}
 /* Media Queries ============================================================== */
 
 @media (min-width: 768px) {
