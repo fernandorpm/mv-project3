@@ -129,3 +129,17 @@ body,
   bottom: 0;
   left: 0;
 }
+
+.border-right-min-tablet {
+  border: 0 !important;
+}
+@media (min-width: 768px) {
+  .border-right-min-tablet {
+    border-right: 1px solid #DEE2E6 !important;
+  }
+}
+@media (min-width: 992px) {
+  .nav-top-logo {
+    width: 400px;
+  }
+}
