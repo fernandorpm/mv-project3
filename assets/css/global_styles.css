@@ -26,26 +26,29 @@ li {
   flex: 0 0 auto;
 }
 
-/* Sizes - Percentages */
-
-.w94 {
-  width: 94%;
-}
+/* Width Sizes - Percentages */
 
 .w100 {
   width: 100%;
   margin: 0 auto;
 }
 
-/* Sizes - Pixels */
+/* Width Sizes - Pixels */
 
 .w95px {
   width: 95px;
   height: 95px;
 }
 
-.w1260px {
-  width: 1260px;
+.w365px-max {
+  max-width: 365px;
+  margin: 0 auto;
+}
+
+/* Height Sizes - Pixels */
+
+.h20px {
+  height: 20px;
 }
 
 /* Page Content */
@@ -134,13 +137,29 @@ body,
   left: 0;
 }
 
+
+/* Main */
+
+.debate-img {
+  width: 63px;
+}
+
+.debate-versus {
+  height: 4px;
+}
+
+.nw-logo-small {
+  width: 24px;
+  height: 24px;
+}
+
 /* Footer */
 
 .border-right-min-tablet {
   border: 0 !important;
 }
 
-/* Media Queries */
+/* Media Queries ============================================================== */
 
 @media (min-width: 768px) {
   .border-right-min-tablet {
