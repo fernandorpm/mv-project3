@@ -32,11 +32,6 @@ li {
   width: 94%;
 }
 
-.w100 {
-  width: 100%;
-  margin: 0 auto;
-}
-
 /* Width Sizes - Pixels */
 
 .w95px {
@@ -158,11 +153,6 @@ body,
 .nw-logo-small {
   width: 24px;
   height: 24px;
-}
-
-.margintest {
-  width: 1000px;
-  margin: -20px;
 }
 
 /* Footer */
