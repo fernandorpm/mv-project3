@@ -148,14 +148,14 @@ body,
 /* Footer */
 
 .border-right-min-tablet {
-  border: 0 !important;
+  border: 0;
 }
 
 /* Media Queries ============================================================== */
 
 @media (min-width: 768px) {
   .border-right-min-tablet {
-    border-right: 1px solid #dee2e6 !important;
+    border-right: 1px solid #dee2e6;
   }
 }
 
