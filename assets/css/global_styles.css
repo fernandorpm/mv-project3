@@ -20,12 +20,6 @@ li {
   transition: top 0.3s;
 }
 
-/* Display */
-
-.auto-flex {
-  flex: 0 0 auto;
-}
-
 /* Width Sizes - Percentages */
 
 .w94 {
