@@ -167,6 +167,22 @@ body,
   height: 24px;
 }
 
+.picturebackground {
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 160px;
+}
+
+.section-spacing {
+  height: 100px;
+}
+
+.form-height {
+  height: 35px;
+}
+
 /* Footer */
 
 .border-right-min-tablet {
@@ -174,7 +190,8 @@ body,
 }
 
 .msimagedisplay {
-  height: 258px;
+  width: 220px;
+  height: 220px;
 }
 
 /* Media Queries ============================================================== */
@@ -198,6 +215,10 @@ body,
 
   .negative-margin-right {
     margin-right: 0;
+  }
+
+  .picturebackground {
+    height: auto;
   }
 }
 
