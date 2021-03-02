@@ -48,6 +48,10 @@ li {
   width: 1260px;
 }
 
+.w218px {
+  width: 218px;
+}
+
 /* Height Sizes - Pixels */
 
 .h20px {
@@ -58,6 +62,14 @@ li {
 
 .page-content {
   max-width: 1300px;
+}
+
+.sus390px {
+  max-height: 390px;
+}
+
+.let170px {
+  max-height: 170px;
 }
 
 /* Background colors */
@@ -161,11 +173,23 @@ body,
   border: 0;
 }
 
+.msimagedisplay {
+  height: 258px;
+}
+
 /* Media Queries ============================================================== */
 
 @media (min-width: 768px) {
   .border-right-min-tablet {
     border-right: 1px solid #dee2e6;
+  }
+
+  .let170px {
+    height: 100%;
+  }
+
+  .msimagedisplay {
+    height: 110px;
   }
 
   .mobile-small-scale {
