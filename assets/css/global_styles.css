@@ -49,6 +49,10 @@ li {
   margin: 0 auto;
 }
 
+.w1260px {
+  width: 1260px;
+}
+
 /* Height Sizes - Pixels */
 
 .h20px {
