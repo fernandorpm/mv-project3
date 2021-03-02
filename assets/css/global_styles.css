@@ -12,6 +12,12 @@ li {
   list-style-type: none;
 }
 
+/* Scales */
+
+.mobile-small-scale {
+  transform: scale(0.7);
+}
+
 /* Positions */
 
 #fixed-navbar {
@@ -119,7 +125,7 @@ body,
 /* Navbar */
 
 .nav-top-logo {
-  width: 140px;
+  width: 120px;
 }
 
 .triangle-shape {
@@ -128,6 +134,10 @@ body,
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.negative-margin-right {
+  margin-right: -20px;
 }
 
 /* Main */
@@ -156,6 +166,14 @@ body,
 @media (min-width: 768px) {
   .border-right-min-tablet {
     border-right: 1px solid #dee2e6;
+  }
+
+  .mobile-small-scale {
+    transform: scale(1);
+  }
+
+  .negative-margin-right {
+    margin-right: 0;
   }
 }
 
