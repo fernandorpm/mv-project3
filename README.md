@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/fernandorpm/mv-project3)
+[Live Demo Link](https://fernandorpm.github.io/mv-project3/)
 
 
 ## Getting Started
